@@ -7,7 +7,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(image/backgrounds/landing.jpg);
-
 }
 .part1{
   position: absolute;
@@ -25,4 +24,12 @@
 .logo{
   margin-left: 420px;
   margin-top: 50px;
+}
+.logo-text p{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-top: 450px;
 }

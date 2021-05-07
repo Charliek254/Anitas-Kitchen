@@ -112,3 +112,35 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.drink{
+  margin-top: 250px;
+}
+#drinkimages{    
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  float: right;
+  margin-left: 80px;
+  margin-right: 190px;
+  margin-bottom: 105px;
+  padding: 20px;
+  box-shadow: 0 0 5px #B6B6B6;
+}
+#drinks-text{
+  padding-left: 190px;
+  padding-top: 20px;
+  color: #505050;
+}
+#view-drink{
+  color: #f15b29;
+  font-size: 20px;
+  box-sizing: content-box;
+  border: solid #f15b29 1px;
+  border-radius: 3px;
+  margin-left: 150px;
+  margin-right: 1000px;
+  padding-left: 30px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -166,7 +166,7 @@
   display: flex;
   justify-content: space-around;
   color: #505050;
-  font-size: 13px;
+  font-size: 10px;
   background-color: white;
 }
 #slideshow-menu > h1:nth-child(2){
@@ -203,7 +203,30 @@
   margin-bottom: 0px;
 }
 #slideshow-menu > h1:first-child{
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 56px;
+  padding-right: 60px;
   color: #f15b29;
+}
+#slideshow-images{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+#slideshow-images > p:nth-child(1){
+  color: #f15b29;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transform: scale(1.5,4);
+  font-weight:bolder
+}
+#slideshow-images > p:nth-child(5){
+  color: #f15b29;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transform: scale(1.5,4);
+  font-weight:bolder
 }

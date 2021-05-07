@@ -126,10 +126,11 @@
   padding: 20px;
   box-shadow: 0 0 5px #B6B6B6;
 }
-#drinks-text{
+#drink-text{
   padding-left: 190px;
   padding-top: 20px;
   color: #505050;
+  text-align: end;
 }
 #view-drink{
   color: #f15b29;
@@ -138,9 +139,71 @@
   border: solid #f15b29 1px;
   border-radius: 3px;
   margin-left: 150px;
-  margin-right: 1000px;
+  margin-right: 800px;
   padding-left: 30px;
-  padding-right: 15px;
+  padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.slideshow-container{
+  clear: both;
+  margin-top: 250px;
+  background-image: url(image/backgrounds/foodsBg.jpg);
+  margin-left: -8px;
+  margin-right: -50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.slideshow-box{
+  background-color: white;
+}
+#slideshow-menu{
+  display: flex;
+  justify-content: space-around;
+  color: #505050;
+  font-size: 13px;
+  background-color: white;
+}
+#slideshow-menu > h1:nth-child(2){
+  box-sizing: content-box;
+  border:solid #b6b6b6 1px;
+  background-color:#E3E3E3;
+  padding-left: 100px;
+  padding-right: 106px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#slideshow-menu > h1:nth-child(3){
+  box-sizing: content-box;
+  border:solid #b6b6b6 1px;
+  background-color:#E3E3E3;
+  padding-left: 100px;
+  padding-right: 106px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#slideshow-menu > h1:nth-child(4){
+  box-sizing: content-box;
+  border:solid #b6b6b6 1px;
+  background-color:#E3E3E3;
+  padding-left: 100px;
+  padding-right: 106px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#slideshow-menu > h1:first-child{
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #f15b29;
 }

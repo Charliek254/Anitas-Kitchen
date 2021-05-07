@@ -230,3 +230,17 @@
   transform: scale(1.5,4);
   font-weight:bolder
 }
+#slideshow{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-bottom: 40px;
+  font-weight: bold;
+  color: #f15b29;
+}
+#slideshow > p:nth-child(1){
+  padding-left: 47px;
+}
+#slideshow > p:nth-child(3){
+  padding-right: 47px;
+}
